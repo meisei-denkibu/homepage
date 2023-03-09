@@ -1,11 +1,15 @@
-import { GAME_INFO } from '../../Pages/Game/gameInfo';
+import { GameInfo, GAME_INFO } from '../../Pages/Game/gameInfo';
 import { Anchor } from '../Atoms/Anchor/Anchor';
 import { Button } from '../Atoms/Button/Button';
 import { DESCRIBE, GAME_CAUTION, PLAY } from '../constants/text';
 import { SubImage } from '../Molecules/SubImage/SubImage';
 import { makeNewLine } from '../static/function/makeNewLine';
 
-export const GameIntro = () => {
+type Props = {
+  items: GameInfo;
+}
+
+export const GameIntro = (props: Props) => {
   const styles = {
     describeBox: {
       display: 'block',
@@ -102,33 +106,35 @@ export const GameIntro = () => {
     }
   };
 
+  const { items } = props;
+
   return (
     <>
-      {Object.keys(GAME_INFO).map((key, index) => {
+      {Object.keys(items).map((key, index) => {
         return (
           <div key={key} style={styles.gameBox}>
             <div style={styles.introBox}>
               <div style={styles.describeBox}>
                 <div style={styles.titleBox} className='titleBox'>
-                  <p style={styles.gameTitle}>{GAME_INFO[key].name}</p>
+                  <p style={styles.gameTitle}>{items[key].name}</p>
                 </div>
                 <div style={styles.explanationBox}>
                   <span style={styles.boxTitle}>{DESCRIBE}</span>
-                  <p style={styles.explanation}>{makeNewLine(GAME_INFO[key].explanation)}</p>
+                  <p style={styles.explanation}>{makeNewLine(items[key].explanation)}</p>
                 </div>
                 <div style={styles.anchorBox} className='gameAnchor'>
                   <Anchor
                     content={
                       <Button style={styles.button} label={PLAY} />
                     }
-                    link={GAME_INFO[key].link}
+                    link={items[key].link}
                     blank={true}
                   />
                   <p style={styles.caution}>{GAME_CAUTION}</p>
                 </div>
               </div>
               <div style={styles.subImage}>
-                <SubImage gameImageNode={GAME_INFO[key].image} gameIndex={index} gameInfo={GAME_INFO} />
+                <SubImage gameImageNode={items[key].image} gameIndex={index} gameInfo={items} />
               </div>
             </div>
           </div>

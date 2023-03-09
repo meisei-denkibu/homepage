@@ -1,6 +1,6 @@
 export const WEB_TEXT = 'web作品';
 export const ELECT_TEXT = '電子工作品';
-export const INQUIRY_TEXT = 'お問い合わせ';
+export const INQUIRY_TEXT = 'Q&A集';
 export const MEDIA_TEXT = 'メディア作品';
 export const GAME_TEXT = 'ゲーム作品';
 export const HOME_TEXT = 'Home';

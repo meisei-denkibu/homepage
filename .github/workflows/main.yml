@@ -5,10 +5,6 @@ on:
     branches:
       - master
 
-env:
-  REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
-  REACT_APP_GRAPHQL_ENDPOINT: ${{ secrets.REACT_APP_GRAPHQL_ENDPOINT }}
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -20,6 +16,7 @@ jobs:
     - name: Build
       run: |
         npm ci
+        cp ./404.html ./public/404.html
         npm run build
 
     - name: Deploy

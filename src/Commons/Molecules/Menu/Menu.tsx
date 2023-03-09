@@ -14,7 +14,7 @@ export const Menu = (props: Props) => {
   const OnClick: MenuProps['onClick'] = e => {
     return (
       <>
-        {navigate('/' + e.key)}
+        {navigate(e.key)}
       </>
     );
   };

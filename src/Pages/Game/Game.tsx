@@ -3,6 +3,7 @@ import { Footer } from '../../Commons/Organisms/Footer';
 import { GameIntro } from '../../Commons/Organisms/GameIntro';
 import { Header } from '../../Commons/Organisms/Header';
 import GAME_TITLE from '../../Commons/static/svg/game_title.svg';
+import { GAME_INFO } from './gameInfo';
 
 export const Game = () => {
   const styles = {
@@ -29,7 +30,7 @@ export const Game = () => {
         <Image src={GAME_TITLE} preview={false} />
       </div>
       <div style={styles.gameBox}>
-        <GameIntro />
+        <GameIntro items={GAME_INFO} />
       </div>
       <Footer />
     </div >

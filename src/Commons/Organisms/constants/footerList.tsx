@@ -36,18 +36,6 @@ export const FOOTER_INFO: {
   club: {
     top: {
       content: 'トップページ',
-      path: '#',
-      style: listStyle,
-      className: FOOTER_CLASS_NAME
-    },
-    siteMap: {
-      content: 'サイトマップ',
-      path: '#',
-      style: listStyle,
-      className: FOOTER_CLASS_NAME
-    },
-    activity: {
-      content: '活動について',
       path: HOME_URL,
       style: listStyle,
       className: FOOTER_CLASS_NAME
@@ -83,12 +71,6 @@ export const FOOTER_INFO: {
     question: {
       content: 'よくあるご質問',
       path: QUESTION_PATH,
-      style: listStyle,
-      className: FOOTER_CLASS_NAME
-    },
-    inquiry: {
-      content: 'お問い合わせ',
-      path: INQUIRY_PATH,
       style: listStyle,
       className: FOOTER_CLASS_NAME
     }
