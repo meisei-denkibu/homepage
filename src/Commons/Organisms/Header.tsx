@@ -1,7 +1,5 @@
 import { HORIZONTAL } from '../constants/text';
-import { SEARCH } from '../constants/text';
 import { Menu } from '../Molecules/Menu/Menu';
-import { Search } from '../Molecules/Serach/Serach';
 import { Image } from '../Atoms/Image/Image';
 import logo from '../static/svg/icon_header.svg';
 
@@ -26,10 +24,6 @@ export const Header = (props: Props) => {
     menu: {
       boxShadow: 'rgba(122,122,122,0.0588235) 0px 0px 24px 20px',
     },
-    search: {
-      marginTop: 35,
-      marginLeft: '50vw'
-    },
     menuBox: {
       display: 'table',
       width: '100%',
@@ -50,11 +44,6 @@ export const Header = (props: Props) => {
         <div style={style.imgBox}>
           <Image src={logo} styles={style.defaultImage} preview={false} />
         </div>
-        {!(props.delete) &&
-          <div style={style.search}>
-            <Search holder={SEARCH} />
-          </div>
-        }
       </div>
       {!(props.delete) &&
         <div style={style.menuBox}>
