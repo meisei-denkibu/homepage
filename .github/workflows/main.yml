@@ -13,6 +13,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
+    - name: Install Dependencies
+      run: |
+        npm install --save-dev webpack webpack-cli
+        npm install @emotion/core @emotion/styled
+
     - name: Build
       run: |
         npm ci

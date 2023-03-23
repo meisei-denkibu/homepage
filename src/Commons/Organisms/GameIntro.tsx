@@ -1,3 +1,4 @@
+import { css } from '@emotion/react';
 import { GameInfo } from '../../Pages/Game/gameInfo';
 import { Anchor } from '../Atoms/Anchor/Anchor';
 import { Button } from '../Atoms/Button/Button';
@@ -112,17 +113,17 @@ export const GameIntro = (props: Props) => {
     <>
       {Object.keys(items).map((key, index) => {
         return (
-          <div key={key} style={styles.gameBox}>
-            <div style={styles.introBox}>
-              <div style={styles.describeBox}>
-                <div style={styles.titleBox} className='titleBox'>
-                  <p style={styles.gameTitle}>{items[key].name}</p>
+          <div key={key} css={css(styles.gameBox)}>
+            <div css={css(styles.introBox)}>
+              <div css={css(styles.describeBox)}>
+                <div css={css(styles.titleBox)} className='titleBox'>
+                  <p css={css(styles.gameTitle)}>{items[key].name}</p>
                 </div>
-                <div style={styles.explanationBox}>
-                  <span style={styles.boxTitle}>{DESCRIBE}</span>
-                  <p style={styles.explanation}>{makeNewLine(items[key].explanation)}</p>
+                <div css={css(styles.explanationBox)}>
+                  <span css={css(styles.boxTitle)}>{DESCRIBE}</span>
+                  <p css={css(styles.explanation)}>{makeNewLine(items[key].explanation)}</p>
                 </div>
-                <div style={styles.anchorBox} className='gameAnchor'>
+                <div css={css(styles.anchorBox)} className='gameAnchor'>
                   <Anchor
                     content={
                       <Button style={styles.button} label={PLAY} />
@@ -130,10 +131,10 @@ export const GameIntro = (props: Props) => {
                     link={items[key].link}
                     blank={true}
                   />
-                  <p style={styles.caution}>{GAME_CAUTION}</p>
+                  <p css={css(styles.caution)}>{GAME_CAUTION}</p>
                 </div>
               </div>
-              <div style={styles.subImage}>
+              <div css={css(styles.subImage)}>
                 <SubImage gameImageNode={items[key].image} gameIndex={index} gameInfo={items} />
               </div>
             </div>
