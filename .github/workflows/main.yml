@@ -17,6 +17,7 @@ jobs:
       run: |
         npm ci
         cp ./404.html ./public/404.html
+        cp ./sitemap.xml ./public/sitemap.xml
         npm run build
 
     - name: Deploy
