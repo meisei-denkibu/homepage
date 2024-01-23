@@ -45,7 +45,7 @@ export type GameInfo = {
 export const GAME_INFO: GameInfo = {
   delight: {
     name: 'Delight Beats',
-    explanation: 'PC用の7レーンの音ゲーです。\n\neasy,normal,hardの難易度をご用意。\n\nぜひお楽しみください!',
+    explanation: 'PC用の7レーンの音ゲーです。\n\neasy,normal,hardの難易度をご用意。\n\nめちゃくちゃ重くてすみません!',
     link: 'https://unityroom.com/games/hiropen1414-delight',
     image: [
       <Image

@@ -19,6 +19,10 @@ module.exports = {
         test: /\.tsx?$/,
         // TypeScript をコンパイルする
         use: "ts-loader"
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/i,  // 画像用のローダーの設定
+        type: 'asset/resource',
       }
     ]
   },
