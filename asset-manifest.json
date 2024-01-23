@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.5ba05b7b.css",
-    "main.js": "/homepage/static/js/main.2ce8e0ad.js",
+    "main.js": "/homepage/static/js/main.e8f2459c.js",
     "static/media/elect.png": "/homepage/static/media/elect.af13ce7e98636ef36df7.png",
     "static/media/seiyuusai.png": "/homepage/static/media/seiyuusai.94afb942387eba00bf81.png",
     "static/media/seiyuusai2.png": "/homepage/static/media/seiyuusai2.e8abdfb7e4ada350fd57.png",
     "static/media/4mu2.gif": "/homepage/static/media/4mu2.4e2e4d6fa7afc384ece6.gif",
     "static/media/campusmap.png": "/homepage/static/media/campusmap.6591c5b77c2a496200de.png",
     "static/media/quad3.gif": "/homepage/static/media/quad3.5fa6cbf4e41c690f58e9.gif",
-    "static/media/icon_error.svg": "/homepage/static/media/icon_error.2f7d2bb79fc98590a2605e505d7e85d9.svg",
+    "static/media/icon_error.svg": "/homepage/static/media/icon_error.a4054d0dd417070ac51e08eed82a3532.svg",
     "static/media/Ted3.gif": "/homepage/static/media/Ted3.69bcdd452f062f4142c5.gif",
     "static/media/rob2.gif": "/homepage/static/media/rob2.965c3733c468d7e8dd60.gif",
     "static/media/Ted2.png": "/homepage/static/media/Ted2.2ae6d77dc6c57e3dbf00.png",
@@ -27,26 +27,26 @@
     "static/media/stakasu2.png": "/homepage/static/media/stakasu2.87f75a766a956e94ca6e.png",
     "static/media/rob1.png": "/homepage/static/media/rob1.18a832c395def51f9662.png",
     "static/media/quad1.png": "/homepage/static/media/quad1.b0b0e1cb759ace60b90c.png",
-    "static/media/icon_header.svg": "/homepage/static/media/icon_header.558b55f7ea4638e3d50129148c5c7784.svg",
+    "static/media/icon_header.svg": "/homepage/static/media/icon_header.f49c5ce8a11125b23d083f4654721868.svg",
     "static/media/4mu1.png": "/homepage/static/media/4mu1.f54b63cdb65d5e748e83.png",
     "static/media/quad2.png": "/homepage/static/media/quad2.f160ea9d87a92c829e71.png",
-    "static/media/goal.svg": "/homepage/static/media/goal.e05bc82d663b9b4bfc5c9108648255af.svg",
+    "static/media/goal.svg": "/homepage/static/media/goal.faff33658087b0637849e6c449fde204.svg",
     "static/media/delight_2.png": "/homepage/static/media/delight_2.8b37e63a5c70c33be57d.png",
     "static/media/game_title.svg": "/homepage/static/media/game_title.04eb23c1a73e2d7278b6c1e8915653d6.svg",
     "static/media/Butler_Light.otf": "/homepage/static/media/Butler_Light.0737d51bdc90202fe832.otf",
     "static/media/icon_footer.svg": "/homepage/static/media/icon_footer.8c6735a706bb00291b6e414581eb2d17.svg",
+    "static/media/web_title.svg": "/homepage/static/media/web_title.9d9a85ea7e7dbeddcd5b9472e9766db1.svg",
     "static/media/media_title.svg": "/homepage/static/media/media_title.55ca825ddd21b644ccbf06bd3609882a.svg",
-    "static/media/web_title.svg": "/homepage/static/media/web_title.41130f5761d1f39dd3237fece4a68221.svg",
-    "static/media/elect_title.svg": "/homepage/static/media/elect_title.78e198b24cb7648d4814de5c8870d9e4.svg",
+    "static/media/elect_title.svg": "/homepage/static/media/elect_title.b65a628d4b5f4a465d1dfee1213a060e.svg",
     "index.html": "/homepage/index.html",
     "static/media/icon_twitter.svg": "/homepage/static/media/icon_twitter.e18fbf832f46c7279d6926edf5b5483c.svg",
     "static/media/question-chat.svg": "/homepage/static/media/question-chat.5e1c38ab77860efd3d27b8edf1324834.svg",
     "static/media/check-circle.svg": "/homepage/static/media/check-circle.bb5108dfdc6e5ff84276127ff4bac4bc.svg",
     "main.5ba05b7b.css.map": "/homepage/static/css/main.5ba05b7b.css.map",
-    "main.2ce8e0ad.js.map": "/homepage/static/js/main.2ce8e0ad.js.map"
+    "main.e8f2459c.js.map": "/homepage/static/js/main.e8f2459c.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba05b7b.css",
-    "static/js/main.2ce8e0ad.js"
+    "static/js/main.e8f2459c.js"
   ]
 }
