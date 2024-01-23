@@ -150,6 +150,27 @@ export const GAME_INFO: GameInfo = {
       />,
     ]
   },
+  robots: {
+    name: '二足歩行ロボット君性能テスト',
+    explanation: '一人称視点でロボットくんを操作します。\nオーブを3個回収できたら性能テストは成功です。\n\n何回落下しても問題ないので、落ち着いて操作して性能テストを成功させましょう！',
+    link: 'https://unityroom.com/games/246813579',
+    image: [
+      <Image
+        key='img1'
+        src={rob1}
+        styles={styles.imgStyle}
+        boxStyles={styles.boxStyles}
+        preview={false}
+      />,
+      <Image
+        key='img2'
+        src={rob2}
+        styles={styles.imgStyle}
+        boxStyles={styles.boxStyles}
+        preview={false}
+      />,
+    ]
+  },
   quadline: {
     name: 'Quadline',
     explanation: '4つの列に流れてくるノーツを打つシンプルなリズムゲームです。\n' +

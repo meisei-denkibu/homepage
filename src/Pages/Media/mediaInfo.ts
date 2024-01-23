@@ -28,6 +28,21 @@ export const MEDIA_INFO: {
   ElectIntroduce: {
     name: '電子工作班紹介',
     explanation:'明星大学電気部の電子工作班についての紹介動画です!!\n電子工作班では、主にTinkercadというサイトを使って電子工作の学習を行っています!!\n時には部品を買って実際に組み立てたり✨',
-    moviePath:'https://www.youtube.com/embed/PpbF-E1nDv8'
+    moviePath:'https://www.youtube.com/embed/Ty0zbKPHWmE?si=yRqF7Xbit8229Vot'
+  },
+  douga: {
+    name: 'ゆっくりムービーメーカー紹介',
+    explanation:'ゆっくりムービーメーカーでの動画の作り方についての紹介動画です！',
+    moviePath:'https://www.youtube.com/embed/Ty0zbKPHWmE?si=rp3DQfIqJJHlPgsy'
+  },
+  romans: {
+    name: 'ロマンスカーの乗り方紹介',
+    explanation:'ロマンスカーの乗り方についての紹介動画です！',
+    moviePath:'https://www.youtube.com/embed/BkCFJS5pQFE?si=6fUS5GMo2hDqa647'
+  },
+  henzeru: {
+    name: 'ヘンゼルとグレーテルの紹介',
+    explanation:'ヘンゼルとグレーテルの物語をゆっくりムービーメーカーで作りました！',
+    moviePath:'https://www.youtube.com/embed/12dZ6VskZ34?si=Vhe-2u7qBKzwq9lO'
   }
 };
