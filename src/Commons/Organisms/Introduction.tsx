@@ -66,7 +66,7 @@ export const Introduction = (props: Props) => {
       marginLeft: 56,
       opacity: 0,
       transition: '0s',
-      border: 'solid 3px rgba(30,30,30,0.4)',
+      border: 'solid 3px rgba(30,30,130,0.4)',
       borderRadius: 5,
       zIndex: 10000,
     },
