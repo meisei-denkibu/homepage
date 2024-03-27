@@ -45,7 +45,7 @@ export type GameInfo = {
 export const GAME_INFO: GameInfo = {
   delight: {
     name: 'Delight Beats',
-    explanation: 'PC用の7レーンの音ゲーです。\n\neasy,normal,hardの難易度をご用意。\n\n是非遊んでみてください!',
+    explanation: 'PC用の7レーンの音ゲーです。\n\neasy,normal,hardの難易度をご用意。\n\n是非遊んでみてください!aaaaaaaaaaa',
     link: 'https://unityroom.com/games/hiropen1414-delight',
     image: [
       <Image
@@ -196,6 +196,34 @@ export const GAME_INFO: GameInfo = {
       <Image
         key='img2'
         src={mu2}
+        styles={styles.imgStyle}
+        boxStyles={styles.boxStyles}
+        preview={false}
+      />
+    ]
+  },
+  test: {
+    name: 'Delight Beats',
+    explanation: 'PC用の7レーンの音ゲーです。\n\neasy,normal,hardの難易度をご用意。\n\n是非遊んでみてください!',
+    link: 'https://unityroom.com/games/hiropen1414-delight',
+    image: [
+      <Image
+        key='img1'
+        src={delight1}
+        styles={styles.imgStyle}
+        boxStyles={styles.boxStyles}
+        preview={false}
+      />,
+      <Image
+        key='img2'
+        src={delight2}
+        styles={styles.imgStyle}
+        boxStyles={styles.boxStyles}
+        preview={false}
+      />,
+      <Image
+        key='img3'
+        src={delight3}
         styles={styles.imgStyle}
         boxStyles={styles.boxStyles}
         preview={false}
